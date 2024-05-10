@@ -1,0 +1,37 @@
+.text-box  h3{
+    color: pink;
+}
+h3:active{
+    color: black;
+}
+
+.text-box p#greycol{
+    color: grey;
+    
+}
+
+.text-box p#greycol:hover{
+    color: yellowgreen;
+}
+
+.text-box div:nth-child(5) p {
+    color: red;
+  }
+  .text-box div:nth-child(5) p:visited{
+    font-size: 20px;
+  }
+
+
+  
+.text-box p:nth-of-type(2) {
+    color: green;
+}
+
+  .text-box p:nth-of-type(2):link{
+    color: aqua;
+    opacity: initial;
+  }
+
+.yellow {
+    color: yellow;
+}
